@@ -61,11 +61,12 @@
             // btnReportIssues
             // 
             this.btnReportIssues.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.btnReportIssues.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnReportIssues.Location = new System.Drawing.Point(138, 143);
-            this.btnReportIssues.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnReportIssues.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnReportIssues.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReportIssues.Location = new System.Drawing.Point(188, 150);
+            this.btnReportIssues.Margin = new System.Windows.Forms.Padding(2);
             this.btnReportIssues.Name = "btnReportIssues";
-            this.btnReportIssues.Size = new System.Drawing.Size(350, 65);
+            this.btnReportIssues.Size = new System.Drawing.Size(250, 55);
             this.btnReportIssues.TabIndex = 2;
             this.btnReportIssues.Text = "Report Issues";
             this.btnReportIssues.UseVisualStyleBackColor = true;
@@ -73,11 +74,12 @@
             // 
             // btnLocalEvents
             // 
-            this.btnLocalEvents.Enabled = false;
-            this.btnLocalEvents.Location = new System.Drawing.Point(138, 214);
-            this.btnLocalEvents.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnLocalEvents.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLocalEvents.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLocalEvents.Location = new System.Drawing.Point(188, 210);
+            this.btnLocalEvents.Margin = new System.Windows.Forms.Padding(2);
             this.btnLocalEvents.Name = "btnLocalEvents";
-            this.btnLocalEvents.Size = new System.Drawing.Size(350, 65);
+            this.btnLocalEvents.Size = new System.Drawing.Size(250, 55);
             this.btnLocalEvents.TabIndex = 3;
             this.btnLocalEvents.Text = "Local Events and Announcements";
             this.btnLocalEvents.UseVisualStyleBackColor = true;
@@ -85,10 +87,12 @@
             // btnServiceStatus
             // 
             this.btnServiceStatus.Enabled = false;
-            this.btnServiceStatus.Location = new System.Drawing.Point(138, 286);
-            this.btnServiceStatus.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnServiceStatus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnServiceStatus.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnServiceStatus.Location = new System.Drawing.Point(188, 270);
+            this.btnServiceStatus.Margin = new System.Windows.Forms.Padding(2);
             this.btnServiceStatus.Name = "btnServiceStatus";
-            this.btnServiceStatus.Size = new System.Drawing.Size(350, 65);
+            this.btnServiceStatus.Size = new System.Drawing.Size(250, 55);
             this.btnServiceStatus.TabIndex = 4;
             this.btnServiceStatus.Text = "Service Request Status";
             this.btnServiceStatus.UseVisualStyleBackColor = true;
@@ -103,7 +107,7 @@
             this.Controls.Add(this.btnReportIssues);
             this.Controls.Add(this.lblInstruction);
             this.Controls.Add(this.lblHeading);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MinimumSize = new System.Drawing.Size(474, 345);
             this.Name = "MainMenuForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

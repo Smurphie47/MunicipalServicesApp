@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,15 +47,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EventRepository.cs" />
     <Compile Include="IssueReport.cs" />
+    <Compile Include="LocalEventsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LocalEventsForm.Designer.cs">
+      <DependentUpon>LocalEventsForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainMenuForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MainMenuForm.Designer.cs">
       <DependentUpon>MainMenuForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="MunicipalEvent.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RecommendationEngine.cs" />
     <Compile Include="ReportIssueForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,6 +72,12 @@
       <DependentUpon>ReportIssueForm.cs</DependentUpon>
     </Compile>
     <Compile Include="ReportRepository.cs" />
+    <Compile Include="ViewReportsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewReportsForm.Designer.cs">
+      <DependentUpon>ViewReportsForm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="MainMenuForm.resx">
       <DependentUpon>MainMenuForm.cs</DependentUpon>
     </EmbeddedResource>
